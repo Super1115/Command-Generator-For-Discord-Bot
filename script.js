@@ -23,7 +23,7 @@ function send(){
       let filetext = `
   function commandFunction(msgObj, args){
       // 這裡是你要執行的功能
-      msgObj.channel.send("執行結果： ${executeReply}");
+      msgObj.channel.send("${executeReply}");
   }
   const description = "${description}";
   module.exports = {
